@@ -1,4 +1,4 @@
-'use-strict'
+'use strict'
 const request = require('request')
 const extract = require('extract-zip')
 const fs = require('fs')
@@ -66,7 +66,7 @@ request
     })
   })
 
-const VerifyPackage = (package) => {
-  package.valid = true
-  return package
+const VerifyPackage = (pkg) => {
+  pkg.valid = true
+  return pkg
 }

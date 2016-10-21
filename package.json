@@ -11,14 +11,16 @@
   },
   "scripts": {
     "init": "node ./scripts/feather.js",
-    "build": "",
-    "dev": "",
-    "lint": "",
-    "lintfix": "",
-    "test": ""
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "lint": "eslint scripts/ src/js/",
+    "lintfix": "eslint --fix scripts/ src/js/",
+    "test": "mocha src/tests/"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "extract-zip": "^1.5.0",
+    "mocha": "^3.1.2",
     "ncp": "^2.0.0",
     "prompt": "^1.0.0",
     "ramda": "^0.22.1",
