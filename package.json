@@ -7,10 +7,11 @@
   "license": "UNLICENSED",
   "dependencies": {
     "jquery": "^3.1.1",
-    "ramda": "^0.22.1"
+    "ramda": "^0.22.1",
+    "webpack": "^1.13.2"
   },
   "scripts": {
-    "init": "node ./scripts/feather.js",
+    "init": "node ./tools/feather.js",
     "build": "webpack",
     "dev": "webpack-dev-server",
     "lint": "eslint scripts/ src/js/",
