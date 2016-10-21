@@ -1,16 +1,30 @@
 'use strict'
-
-const expect = require('chai').expect
+var chai = require('chai')
+var chaiAsPromised = require("chai-as-promised")
+chai.use(chaiAsPromised)
+var expect = chai.expect
 
 describe('Quill', function(){
 
-  describe('yarn init', function(){
+  describe('yarn bootstrap', function(){
 
-    it('can gather bootstrap')
-    it('can gather foundation')
-    it('can gather minimal')
+    const Bootstrap = require('../../tools/feather.js')
+    this.timeout(30000)
+
+    it('can grab the latest package', function(){
+      var res = Bootstrap.getLatest()
+      expect(res).to.eventually.be.a('array')
+      expect(res).to.eventually.have.length(4)
+      return res
+    })
+
+    it('can gather Bootstrap', function(){
+      //var res = 
+    })
+    it('can gather Foundation')
+    it('can gather Minimal')
     it('can gather SymantecUi')
-    it('can setup sass includes')
+    it('can setup skeleton files')
     it('can clean up after itself')
 
   })
