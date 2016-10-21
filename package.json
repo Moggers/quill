@@ -11,7 +11,7 @@
     "webpack": "^1.13.2"
   },
   "scripts": {
-    "init": "node ./tools/feather.js",
+    "bootstrap": "node ./tools/feather.js",
     "build": "webpack",
     "dev": "webpack-dev-server",
     "lint": "eslint scripts/ src/js/",
