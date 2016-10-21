@@ -1,0 +1,27 @@
+{
+  "name": "quill",
+  "version": "1.0.0",
+  "description": "Frontend tools for building feather projects",
+  "main": "gulpfile.js",
+  "author": "Mark Beukers",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "ramda": "^0.22.1"
+  },
+  "scripts": {
+    "init": "node ./scripts/feather.js",
+    "build": "",
+    "dev": "",
+    "lint": "",
+    "lintfix": "",
+    "test": ""
+  },
+  "devDependencies": {
+    "extract-zip": "^1.5.0",
+    "ncp": "^2.0.0",
+    "prompt": "^1.0.0",
+    "ramda": "^0.22.1",
+    "request": "^2.75.0"
+  }
+}
