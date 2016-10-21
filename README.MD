@@ -6,13 +6,12 @@ Quill is a set of front end build tools that integrate with [feather-bootstrap](
 
 - NodeJS 4 or later (6 reccomended)
 - Yarn ( `npm i -g yarn` )
-- Webpack ( `npm i -g webpack` )
+- Webpack ( `yarn global add webpack` )
 
 ## Optional for dev
 
-- Eslint ( `npm i -g eslint` )
-- Webpack Dev Server ( npm i -g `webpack-dev-server` )
-
+- Eslint ( `yarn add global eslint` )
+- Webpack Dev Server ( `yarn add global webpack-dev-server` )
 
 ## Getting Started
 
@@ -36,3 +35,8 @@ After cloning, you can run `yarn` to install all dependencies. Once built, you c
   - /img
   - /sprites
   - /fonts
+  - /tests
+
+## Feather Notes
+
+- http://docs.sitefinity.com/feather-create-layout-files
