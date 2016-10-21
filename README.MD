@@ -1,19 +1,19 @@
-# Quill
+# Quill :penguin:
 
 Quill is a set of front end build tools that integrate with [feather-bootstrap](https://github.com/Sitefinity/feather) and it's [packages](https://github.com/Sitefinity/feather-packages)
 
-## Requirements
+### Requirements
 
 - NodeJS 4 or later (6 Recommended)
 - [Yarn](https://yarnpkg.com) - `npm i -g yarn`
 - [Webpack](https://webpack.github.io/) - `yarn global add webpack`
 
-## Optional for dev
+### Optional for dev
 
 - [Eslint](http://eslint.org/) - `yarn global add eslint`
 - [Webpack Dev Server](https://webpack.github.io/docs/webpack-dev-server.html) - `yarn global add webpack webpack-dev-server`
 
-## Getting Started
+### Getting Started
 
 After cloning, you can run `yarn` to install all dependencies. Once built, you can use the following commands:
 
@@ -24,7 +24,7 @@ After cloning, you can run `yarn` to install all dependencies. Once built, you c
 - `yarn run lintfix` - Fix linting issues
 - `yarn run test` - run any test cases
 
-## File Structure
+### File Structure
 
 - /(Bootstrap|Foundation) - Feather Package
 - /assets - All built assets
@@ -37,6 +37,6 @@ After cloning, you can run `yarn` to install all dependencies. Once built, you c
   - /fonts
   - /tests
 
-## Feather Notes
+### Feather Notes
 
 - http://docs.sitefinity.com/feather-create-layout-files
