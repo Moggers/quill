@@ -5,13 +5,13 @@ Quill is a set of front end build tools that integrate with [feather-bootstrap](
 ## Requirements
 
 - NodeJS 4 or later (6 reccomended)
-- Yarn ( `npm i -g yarn` )
-- Webpack ( `yarn global add webpack` )
+- [Yarn](https://yarnpkg.com) - `npm i -g yarn`
+- [Webpack](https://webpack.github.io/) `yarn global add webpack`
 
 ## Optional for dev
 
-- Eslint ( `yarn add global eslint` )
-- Webpack Dev Server ( `yarn add global webpack-dev-server` )
+- [Eslint](http://eslint.org/) ( `yarn global add eslint` )
+- [Webpack Dev Server](https://webpack.github.io/docs/webpack-dev-server.html) ( `yarn global add webpack webpack-dev-server` )
 
 ## Getting Started
 
