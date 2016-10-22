@@ -2,3 +2,5 @@ node_modules
 assets/
 yarn-error.log
 tmp
+src/images/sprite.png
+src/sass/sprite.scss
